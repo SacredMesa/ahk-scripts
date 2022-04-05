@@ -3,7 +3,7 @@
 SendMode Input
 SetWorkingDir %A_ScriptDir%  
 
-keyArr := ["r", "h", "i", "c", "."]
+keyArr := ["h", "i", "c", "."]
 
 Delete::
 	Loop

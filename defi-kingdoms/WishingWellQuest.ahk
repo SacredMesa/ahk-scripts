@@ -7,7 +7,7 @@ FileCreateDir, ChromeProfile
 ChromeInst := new Chrome()
 Sleep, 1000
 
-SetTimer, wishingWellQuest, 28920000 ; Repeat every 8 hours and 2 minutes
+SetTimer, wishingWellQuest, 29040000 ; Repeat every 8 hours and 2 minutes
 
 wishingWellQuest:
 	; Switch active window to chrome
@@ -27,25 +27,27 @@ wishingWellQuest:
 		Sleep 10000 ; Wait for game load
 		WinActivate ; Make DFK the active window for mouse pos references
 
-		MouseClick, left, 973, 276
+		MouseClick, left, 1671, 1026
 		Sleep 500
-		MouseClick, left, 1691, 766
+		MouseClick, left, 1265, 291
 		Sleep 500
-		MouseClick, left, 1276, 966
+		MouseClick, left, 1283, 664
 		Sleep 500
-		MouseClick, left, 937, 839
+		MouseClick, left, 1276, 962
 		Sleep 500
-		MouseClick, left, 1435, 1292
+		MouseClick, left, 931, 836
 		Sleep 500
-		MouseClick, left, 1272, 1215
+		MouseClick, left, 1438, 1295
+		Sleep 500
+		MouseClick, left, 1271, 1234
 		Sleep 7000
-		MouseClick, WheelDown, 245, 572, 3
+		MouseClick, WheelDown, 241, 570, 3
 		Sleep 1000
 		MouseClick, left, 245, 572
 		Sleep 45000
-		MouseClick, left, 1413, 1034
+		MouseClick, left, 1407, 1046
 		Sleep 7000
-		MouseClick, WheelDown, 245, 572, 3
+		MouseClick, WheelDown, 241, 570, 3
 		Sleep 1000
 		MouseClick, left, 245, 572
 		Sleep 10000
